@@ -1,6 +1,6 @@
 
 - name: ping the server
-  host: node
+  hosts: node
   tasks: 
   - name: ping
     ansible.builtin.module:
